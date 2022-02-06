@@ -5,7 +5,7 @@
 
 pkgname=sudo
 _sudover=1.9.9
-pkgrel=3
+pkgrel=4
 pkgver=${_sudover/p/.p}
 pkgdesc="Give certain users the ability to run some commands as root"
 arch=('x86_64')
@@ -13,6 +13,7 @@ url="https://www.sudo.ws/sudo/"
 license=('custom')
 groups=('base-devel')
 depends=('glibc' 'openssl' 'pam' 'libldap' 'zlib')
+conflicts=('bsudo')
 backup=('etc/pam.d/sudo'
         'etc/sudo.conf'
         'etc/sudo_logsrvd.conf'
