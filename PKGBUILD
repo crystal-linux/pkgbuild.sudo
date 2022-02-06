@@ -25,9 +25,9 @@ source=(https://www.sudo.ws/sudo/dist/$pkgname-$_sudover.tar.gz{,.sig}
         sudo.pam)
 sha256sums=('6d6ee863a3bc26c87661093a74ec63e10fd031ceba714642d21636dfe25e3e00'
             'SKIP'
-            '8b91733b73171827c360a3e01f4692772b78e62ceca0cf0fd4b770aba35081a1'
+            '42801e622daf9878c20bd3e45090d42ffe4ade65a06e092c35219aaf696910c9'
             '094387d71f6866ff85ab1cccbdf685f97c02a803eb01b41c80c52918785db85c'
-            'd1738818070684a5d2c9b26224906aad69a4fea77aabd960fc2675aee2df1fa2')
+            'ad3dbd687bb3ec0849ff91cd774fbeec21f9c4e6d1334de34d0f84a8519966e5')
 validpgpkeys=('59D1E9CCBA2B376704FDD35BA9F4C021CEA470FB')
 
 prepare() {
